@@ -48,9 +48,11 @@ input:focus {
   border: 1px solid rgba(255, 255, 255, 0.25);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.45);
   backdrop-filter: blur(10px);
+  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-
+.card:hover {
+  transform: scale(0.9);
+}
 .home_sec {
-  width: 100px;
   padding: 0 10%;
 }
