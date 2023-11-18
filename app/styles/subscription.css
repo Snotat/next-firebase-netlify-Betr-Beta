@@ -1,0 +1,72 @@
+.subscription-page {
+  background-color: white;
+  height: 100vh;
+  color: #000;
+}
+
+.subscription-table {
+  overflow-x: auto;
+}
+
+.subscription-table::-webkit-scrollbar {
+  width: 1px;
+}
+
+.subscription-table::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.subscription-table::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.subscription-table::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+thead {
+  border-bottom: 2px solid #000;
+  padding-bottom: 20px;
+}
+
+thead th {
+  vertical-align: bottom;
+  min-width: 100px;
+  width: 10%;
+  text-align: left;
+}
+
+tbody td {
+  vertical-align: top;
+  min-width: 100px;
+  width: 10%;
+}
+
+.active {
+  background-color: rgb(176, 255, 97);
+  border: green solid 1px;
+  color: green;
+  padding: 2px;
+  border-radius: 1px;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.actions {
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+}
